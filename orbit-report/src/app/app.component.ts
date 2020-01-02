@@ -7,6 +7,7 @@ import { Satellite } from './satellite';
   styleUrls: ['./app.component.css']
 })
 
+// somewhere here causing issue with creating sourceList array
 
 export class AppComponent {
   title = 'orbit-report';
