@@ -32,13 +32,15 @@ export class AppComponent {
             this.sourceList.push(curSat);
           }
  
-       // make a copy of the sourceList to be shown to the user
-       this.displayList = this.sourceList.slice(0);
-      }.bind(this));
-   }.bind(this));
+      // make a copy of the sourceList to be shown to the user
+      this.displayList = this.sourceList.slice(0);
+    }.bind(this));
+  }.bind(this));
  }
 
- 
+ newAlert() {
+   alert("ran function")
+ }
 
  search(searchTerm: string): void {
   let matchingSatellites: Satellite[] = [];
